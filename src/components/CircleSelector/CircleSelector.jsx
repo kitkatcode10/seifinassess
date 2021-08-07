@@ -1,10 +1,25 @@
-
-// function CircleSelector 
-
-
+import React from 'react'; 
+import "../CircleSelector/CircleSelector.css";
 
 
+const CircleSelector = (props) => (
+
+     <div className='CircleSelector'> 
+     </div>
+)
+//      {props.selections.map((selection, idx) => 
+//         <button 
+//             key='selection'
+//             className='CircleSelector button'
+//      )}
+//     onClick={() => props.handleCircleSelection(idx)}
+//     />
+// )
+// </div>  
+
+
+export default CircleSelector; 
 
 
 
-// The <CircleSelector> component can be defined as a Function Component and is responsible for letting <App> know that the user wants to select a certain circle in the <Circles> component.
+
